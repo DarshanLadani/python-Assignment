@@ -1,0 +1,6 @@
+s=("Hello Darshan")
+s1=("This is")
+print(s[:6],s1,s[6:])
+a=input("Enter Main String")
+b=input("Middle String ")
+print(a.zfill(2))
