@@ -1,2 +1,2 @@
-s="Tops student"
+s=input("Enter String : ")
 print(len(s))
