@@ -1,9 +1,10 @@
-s="Tops student"
-all_freq={}
+s=input("Enter String")
+d={}
+sum=1
 for i in s:
-    if i in all_freq:
-        all_freq[i]+= 1
-    else :
-        all_freq[i]=1
-print(str(all_freq))
-    
+    if i in d :
+        d[i]=sum+1
+    else:
+        d[i]=sum
+print(d)
+        
